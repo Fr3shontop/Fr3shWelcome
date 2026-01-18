@@ -1,0 +1,47 @@
+# Fr3sh-Welcome Configuration
+# You can use MiniMessage format (<red>, <gradient:red:blue>, <#ff0000>)
+# AND legacy codes (&c, &l). The plugin will handle both.
+
+messages:
+  reload: "<green>Configuration reloaded!"
+  no-permission: "<red>You don't have permission!"
+  only-player: "<red>Only players can use this command!"
+
+join:
+  chat:
+    enabled: true
+    message: "<green>Welcome to the server <gray>%player%!"
+  sound:
+    enabled: true
+    # List of all sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    name: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.2
+  title:
+    enabled: false
+    title: "<green>Welcome!"
+    subtitle: "<gray>%player%"
+    fade-in: 10
+    stay: 70
+    fade-out: 20
+  actionbar:
+    enabled: false
+    message: "<blue>Welcome %player%!"
+  bossbar:
+    enabled: false
+    message: "<purple>Welcome %player%!"
+    color: WHITE
+    overlay: PROGRESS
+    duration: 10
+
+quit:
+  chat:
+    enabled: true
+    message: "<red>Player <gray>%player% <red>left the server."
+  sound:
+    enabled: true
+    name: "ENTITY_VILLAGER_NO"
+    volume: 0.8
+    pitch: 1.0
+  # Other quit sections (title, actionbar, bossbar) are disabled by default
+  # as they are not typically shown on player quit.

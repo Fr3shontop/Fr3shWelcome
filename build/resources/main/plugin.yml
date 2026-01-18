@@ -1,0 +1,12 @@
+name: Fr3sh-Welcome
+version: '1.0-BETA'
+main: com.fr3sh.welcome.Main
+api-version: '1.21'
+commands:
+  fw:
+    description: Main plugin command
+    usage: /fw reload
+permissions:
+  fr3sh.reload:
+    description: Allows reloading the plugin's configuration.
+    default: op
