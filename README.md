@@ -64,8 +64,9 @@ The `fr3sh.reload` permission is granted to operators by default.
 
 ## 🚀 Installation
 
-1.  Download the latest version from the [Releases](https://github.com/your-username/your-repo/releases) page.
+1.  Download the latest version from the [Releases](https://github.com/Fr3shontop/Fr3shWelcome/releases/tag/Release) page.
 2.  Place the `.jar` file in your server's `plugins` folder.
 3.  Restart or reload your server.
 4.  Customize the `config.yml` file in the `plugins/Fr3sh-Welcome` folder to your liking.
 5.  Use `/fw reload` to apply the changes.
+
